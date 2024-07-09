@@ -1,0 +1,260 @@
+﻿body {
+    direction: rtl; display: flex; justify-content: center; align-items: center; background-color: white; width: 1280px; margin: 0 auto; font-family: Assistant;
+}
+#container {
+    width: 1200px; height: 1540px; position: relative; padding-bottom: 60px;
+}
+.pic {
+    top: 0px; position: absolute; width: 1200px; height: 1600px; opacity: 0.9;
+}
+#topMenu {
+    width: 1200px; height: 170px; position: absolute; z-index: 100; background-color: white; opacity: 0.8; justify-content: center;
+}
+.logo {
+    opacity: 1; width: 330px; height: 330px; position: absolute; left: 930px; bottom: 222px; transform: translateY(100%);
+}
+.homePage { 
+    position: relative; right: 250px; font-size: 32px; color: black; top: 30px; text-decoration: none; 
+}
+.homePage:hover {
+    color: orange; font-size: 40px;
+}
+.odot {
+    position: relative; right: 350px; font-size: 32px; color: black;  top: 30px; text-decoration: none;
+}
+.odot:hover {
+    color: orange; font-size: 40px;
+}
+.contactUs {
+    position: relative; right: 450px; font-size: 32px; color: black;  top: 30px; text-decoration: none;
+}
+.contactUs:hover {
+        color: orange; font-size: 40px;
+}
+.shakshekOti {
+    position: relative; right: 550px; font-size: 32px; top: 30px; color: orange; text-decoration: none;
+}
+.shakshekOti:hover {
+    color: orange; font-size: 40px;
+}
+.slogen {
+    font-size: 32px; position: relative; right: 420px; top: 55px; 
+}
+#footerMenu {
+    height: 100px; width: 1200px; position: absolute; bottom: 0; background-color: white; opacity: 0.7;
+}
+.contactUsDown {
+    position: relative; top: 35px; right: 200px; font-size: 32px; color: black; text-decoration: none
+}
+.contactUsDown:hover {
+    color: orange; font-size: 40px;
+}
+.siteMapDown {
+    position: relative; top: 35px; right: 400px; font-size: 32px; color: black; text-decoration: none
+}
+.siteMapDown:hover {
+    color: orange; font-size: 40px;
+}
+.odotDown {
+    position: relative; top: 35px; right: 600px; font-size: 32px; color: black; text-decoration: none
+}
+.odotDown:hover {
+    color: orange; font-size: 40px;
+}
+.copyRights {
+    position: relative; top: 30px;
+}
+.main {
+    position: relative; top: 200px; 
+}
+.h1 {
+    color: white; font-size: 40px;
+}
+
+
+.mainKoren {
+    color: white; font-weight: bolder; position: relative; top: 200px; right: 10px;
+}
+
+.title {
+    text-align: center; color: white; font-size: 50px;
+}
+
+.description {
+    text-align: right; font-size: 24px; color: white;
+}
+
+.telem {
+    text-align: center; font-size: 24px;
+}
+
+.picture img {
+    width: 40%; height: 40%; margin-right: 355px;
+}
+
+.links {
+    font-size: 24px;
+}
+.liAbout:hover {
+    color: yellow; font-size: 40px;
+}
+.summerDrink {
+    font-size: 30px; color: white; padding-right: 150px;
+}
+.summerPic {
+    width: 400px; height: 350px; padding-right: 120px;
+}
+.winterDrink {
+    font-size: 30px; color: white; padding-right: 200px;
+}
+.winterPic {
+    width: 400px; height: 350px; padding-right: 120px;
+}
+#moscowMule {
+    position: relative; color: white; margin-right: 120px; width: 350px;
+}
+.moscowMulePic {
+    width: 360px; height: 440px; position: relative; top: 10px;
+}
+.Ul {
+    font-size: 20px;
+}
+.meshakshekim {
+    color: orange; font-size: 28px; background-color: white;
+}
+#negroni {
+    position: absolute; margin-right: 700px; top: 85px; color: white;
+}
+.siteMapLinks {
+    align-items: center; display: flex; justify-content: center; padding-top: 0px; font-size: 60px; color: white; width: 300px; height: 300px; border: 10px dotted lightgreen; margin-right: 150px; text-decoration: none;
+}
+.contactUsLinks {
+    display: flex; justify-content: center; align-items: center; padding-top: 0px; font-size: 60px; color: white; width: 300px; height: 300px; border: 10px dotted white; position: relative; right: 700px;  bottom: 320px; text-decoration: none;
+}
+.shakshekLink {
+    align-items: center; display: flex; text-align: center; padding-top: 0px; font-size: 40px; color: white; width: 300px; height: 300px; border: 10px dotted yellow; margin-right: 150px; font-size: 60px; text-decoration: none;
+}
+.odotlinks {
+    display: flex; justify-content: center; align-items: center; padding-top: 0px; font-size: 60px; color: white; width: 300px; height: 300px; border: 10px dotted cyan; position: relative; right: 700px;  bottom: 320px; text-decoration: none;
+}
+#Contact {
+    text-align: center; color: white; font-size: 24px;
+}
+.form {
+    color: black;
+}
+.textarea {
+    width: 500px; height: 250px; color: black;
+}
+.buttonSlah {
+    color: black; 
+}
+#margarita {
+    position: relative; color: white; margin-right: 120px; width: 400px;
+}
+.margaritaPic {
+    width: 360px; height: 440px; position: relative; top: 45px;
+}
+#muhito {
+    position: relative; margin-right: 700px; bottom: 968px; color: white;
+}
+.muhitoPic {
+    width: 360px; height: 440px;
+}
+.liAbout {
+    color: blue; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 550px;
+    top: 65px;
+    width: 150px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+    z-index: 800;
+    right: 550px;
+    background-color: white;
+    top: 30px;
+}
+
+.dropdown-content a:hover {
+    background-color: orange;
+    z-index: 800;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 800;
+}
+
+.topic {
+    width: 550px; text-align: right; color: yellow; position: relative;
+}
+#Bread ol li {
+    display: inline-block; color: white;
+}
+#Bread ol li:after {
+    content: " >";
+
+}
+#Bread ol li:last-child:after {
+    content: "";
+}
+.bread {
+    color: white;
+}
+#opening {
+    height: 600px; width: 430px; justify-content: center; position: relative; margin-right: 20px; bottom: 20px;
+}
+.openPara {
+    font-size: 30px; color: white;
+}
+.summerIndex {
+    position: relative; right: 945px; font-size: 60px; color: white; text-decoration: none; bottom: 185px; display: inline-block;
+}
+.summerIndex:hover{
+    color: yellow; font-size: 66px;
+}
+.winterIndex {
+    position: relative; right: 463px; font-size: 60px; color: white; text-decoration: none; bottom: 185px; display: inline-block;
+}
+.winterIndex:hover {
+    color: yellow; font-size: 66px;
+}
+.special {
+    position: relative; left: 75px; font-size: 60px; color: white; text-decoration: none; bottom: 185px; display: inline-block;
+}
+.special:hover {
+    color: yellow; font-size: 66px;
+}
+.secPara {
+    position: relative; color: white; font-size: 30px; bottom: 190px; width: 960px; right: 20px;
+}
+.specialCocktail {
+    position:relative; font-size: 30px; color: white; padding-right: 225px; top: 130px;
+}
+.specialCocktailPic {
+    position: relative; width: 400px; height: 400px; padding-right: 120px; top: 150px; 
+}
+.sadna {
+    position: relative; font-size: 30px; color: white; padding-right: 220px; bottom: 277px;
+}
+.sadnaPic {
+    width: 400px; height: 400px; padding-right: 644px; position: relative; bottom: 258px;
+}
+.maintence {
+    position: relative; text-align: center; width: 1200px; top: 200px; color: yellow; font-size: 60px;
+}
